@@ -121,6 +121,18 @@ rss:
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
 
+    # YouTube trendleri (Deniz talebi 2026-09-19) — newsnow'da YouTube kaynağı yok,
+    # RSS ile endüstri + resmi kanal haberleri akar
+    - id: "tubefilter"
+      name: "Tubefilter (YouTube endüstri)"
+      url: "https://www.tubefilter.com/feed/"
+    - id: "youtube-official-blog"
+      name: "YouTube Resmi Blog"
+      url: "https://blog.youtube/rss/"
+    - id: "verge-creators"
+      name: "The Verge (creator/tech)"
+      url: "https://www.theverge.com/rss/index.xml"
+
     # 自定义源示例
     # - id: "custom-feed"
     #   name: "自定义源"
